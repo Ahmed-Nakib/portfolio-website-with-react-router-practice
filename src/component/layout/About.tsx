@@ -17,8 +17,11 @@ const About = () => {
             Whose given. Were gathered. There first subdue greater. Bearing you Whales heaven midst their...
           </p>
           <div className="mt-6">
-            <a className="rounded border-2 border-[#854FEE] bg-[#854FEE] px-6 py-3 text-white font-semibold hover:bg-white hover:text-[#854FEE] transition" href="#">
-              Download CV
+            <a className="rounded border-2 border-[#854FEE] bg-[#854FEE] px-6 py-3 text-white font-semibold hover:bg-white hover:text-[#854FEE] transition" 
+            href="/img/cv.pdf" 
+            download="my-cv.pdf" 
+            >
+            Download CV
             </a>
           </div>
         </div>

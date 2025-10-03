@@ -9,23 +9,20 @@ export const navItems: navTypes[] = [
   { id: 2, name: "About", path: "/about" },
   { id: 3, name: "Services", path: "/services" },
   { id: 4, name: "Portfolio", path: "/portfolio" },
-  { id: 5, name: "Pages", path: "/pages" },
-  { id: 6, name: "Blog", path: "/blog" },
 ];
 
 
 
 type portfolioTypes = {
     id: number,
-    name: string,
-    path: string
-}
+    name: string,}
+
 export const portfolioItems: portfolioTypes[] = [
-  { id: 1, name: "ALL", path: "/all" },
-  { id: 2, name: "POPULAR", path: "/popular" },
-  { id: 3, name: "LATEST", path: "/latest" },
-  { id: 4, name: "FOLLOWING", path: "/following" },
-  { id: 5, name: "UPCOMING", path: "/projects" },
+  { id: 1, name: "ALL" },
+  { id: 2, name: "POPULAR" },
+  { id: 3, name: "LATEST" },
+  { id: 4, name: "FOLLOWING" },
+  { id: 5, name: "UPCOMING" },
 ];
 
 
@@ -34,72 +31,82 @@ type portfolioDetailsType = {
     img: string,
     name: string,
     type: string,
-    path: string,
+    category: string,
+    description: string,
 }
 
 export const portfolioDetails: portfolioDetailsType[] =[
     {
         id: 1,
-        img:"public/img/portfolio/p1.jpg",
+        img:"/img/portfolio/p1.jpg",
         name: "minimal design",
         type: "Animated, portfolio",
-        path: "hello"
+        category: "POPULAR",
+       description: "Detailed description of Project One.",
     },
     {
         id: 2,
-        img:"public/img/portfolio/p2.jpg",
+        img:"/img/portfolio/p2.jpg",
         name: "Paint wall",
         type: "Animated, portfolio",
-        path: "hello"
+        category: "POPULAR",
+        description: "Detailed description of Project One."
     },
     {
         id: 3,
-        img:"public/img/portfolio/p3.jpg",
+        img:"/img/portfolio/p3.jpg",
         name: "female light",
         type: "Animated, portfolio",
-        path: "hello"
+        category: "POPULAR",
+        description: "Detailed description of Project One."
     },
     {
         id: 4,
-        img:"public/img/portfolio/p4.jpg",
-        name: "fourth air",
+        img:"/img/portfolio/p4.jpg",
+        name: "Lego tower",
         type: "Animated, portfolio",
-        path: "hello"
+        category: "LATEST",
+        description: "Detailed description of Project One."
     },
     {
         id: 5,
-        img:"public/img/portfolio/p5.jpg",
+        img:"/img/portfolio/p5.jpg",
         name: "multiply fowl",
         type: "Animated, portfolio",
-        path: "hello"
+        category: "LATEST",
+        description: "Detailed description of Project One."
     },
     {
         id: 6,
-        img:"public/img/portfolio/p6.jpg",
+        img:"/img/portfolio/p6.jpg",
         name: "together sign",
         type: "Animated, portfolio",
-        path: "hello"
+        category: "FOLLOWING",
+        description: "Detailed description of Project One."
     },
     {
         id: 7,
-        img:"public/img/portfolio/p7.jpg",
+        img:"/img/portfolio/p7.jpg",
         name: "green heaven",
         type: "Animated, portfolio",
-        path: "hello"
+        category: "FOLLOWING",
+        description: "Detailed description of Project One."
     },
     {
         id: 8,
-        img:"public/img/portfolio/p8.jpg",
+        img:"/img/portfolio/p8.jpg",
         name: "fly male",
         type: "Animated, portfolio",
-        path: "hello"
+        category: "UPCOMING",
+        description: "Detailed description of Project One."
     },
     {
         id: 9,
-        img:"public/img/portfolio/p9.jpg",
+        img:"/img/portfolio/p9.jpg",
         name: "season face",
         type: "Animated, portfolio",
-        path: "hello"
+        category: "UPCOMING",
+        description: "Detailed description of Project One."
     },
 ]
 

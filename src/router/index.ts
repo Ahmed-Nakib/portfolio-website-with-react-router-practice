@@ -1,9 +1,11 @@
 
+import Form from "@/component/layout/From";
 import MainLayout from "@/component/layout/MainLayout";
-import AboutPage from "@/component/page/AboutPage";
-import HomePage from "@/component/page/HomePage";
-import PortfolioPage from "@/component/page/PortfolioPage";
-import ServicePage from "@/component/page/ServicePage";
+import PortfolioItemDetails from "@/component/layout/PortfolioItemDetails";
+import AboutPage from "@/page/AboutPage";
+import HomePage from "@/page/HomePage";
+import PortfolioPage from "@/page/PortfolioPage";
+import ServicePage from "@/page/ServicePage";
 import { createBrowserRouter } from "react-router-dom";
 const router = createBrowserRouter([
   {
@@ -25,6 +27,14 @@ const router = createBrowserRouter([
       {
         path: "portfolio",
         Component: PortfolioPage,
+      },
+      {
+        path: "portfolio/:id",
+        Component: PortfolioItemDetails 
+      },
+      {
+        path: "contact",
+        Component: Form
       },
     ]
   },
