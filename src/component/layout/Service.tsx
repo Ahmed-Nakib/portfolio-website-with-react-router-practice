@@ -7,8 +7,8 @@ const Service = () => {
 
         {/* Heading */}
         <div className="text-center max-w-2xl mx-auto">
-          <h2 className="text-4xl font-bold text-gray-900 sm:text-5xl">Service Offers</h2>
-          <p className="mt-4 text-base text-gray-700 sm:text-lg leading-relaxed">
+          <h2 className="text-4xl font-bold text-gray-900 dark:text-white sm:text-5xl">Service Offers</h2>
+          <p className="mt-4 text-base text-gray-700 dark:text-gray-300 sm:text-lg leading-relaxed">
             Is give may shall likeness made yielding spirit a itself together created after seas...
           </p>
         </div>
