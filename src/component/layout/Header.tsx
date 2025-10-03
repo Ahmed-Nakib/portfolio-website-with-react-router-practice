@@ -1,18 +1,19 @@
 import { useState } from "react";
 import { navItems } from "@/data/data";
 import { Link, useNavigate } from "react-router-dom";
+import { ModeToggle } from "@/component/layout/mode-toggle";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
   const navigate = useNavigate();
 
   return (
-    <header className="bg-white shadow relative">
+    <header className="bg-white dark:bg-blue-950 shadow relative">
       <div className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 items-center justify-between">
           {/* Logo */}
           <div>
-            <strong className="text-3xl font-bold text-blue-950">NAKIB .</strong>
+            <strong className="text-3xl font-bold text-blue-950 dark:text-white">NAKIB .</strong>
           </div>
 
           {/* Navigation (Desktop) */}
@@ -22,7 +23,7 @@ const Header = () => {
                 <li key={item.id}>
                   <Link
                     to={item.path}
-                    className="text-gray-600 hover:text-[#854FEE] transition"
+                    className="text-gray-600 hover:text-[#854FEE] dark:text-white dark:hover:text-gray-300 transition"
                   >
                     {item.name}
                   </Link>
@@ -33,6 +34,7 @@ const Header = () => {
 
           {/* Button + Mobile menu button */}
           <div className="flex items-center gap-4">
+            <ModeToggle />
             <button
               onClick={() => navigate("contact")}
               className="rounded-md border-2 bg-[#854FEE] px-5 py-2 text-sm font-medium text-white shadow hover:bg-white hover:text-[#854FEE] hover:border-[#854FEE] transition"

@@ -2,13 +2,13 @@ import { CommentData } from "@/data/data"
 
 const Comment = () => {
   return (
-        <section className="bg-white py-16">
+        <section className="bg-white dark:bg-black py-16">
           <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12">
     
             {/* Heading */}
             <div className="text-center max-w-2xl mx-auto">
-              <h2 className="text-4xl font-bold text-gray-900 sm:text-5xl">client say about me</h2>
-              <p className="mt-4 text-base text-gray-700 sm:text-lg leading-relaxed">
+              <h2 className="text-4xl font-bold text-gray-900 dark:text-white sm:text-5xl">client say about me</h2>
+              <p className="mt-4 text-base text-gray-700 dark:text-gray-300 sm:text-lg leading-relaxed">
                 Is give may shall likeness made yielding spirit a itself togeth created after sea is in beast beginning signs open god you're gathering ithe
               </p>
             </div>

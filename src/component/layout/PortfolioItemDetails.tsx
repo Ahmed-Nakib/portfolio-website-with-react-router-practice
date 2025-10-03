@@ -10,7 +10,7 @@ const PortfolioItemDetails = () => {
     return <p className="text-center py-16">Project not found</p>;
   }
   return (
-     <section className="bg-white py-16">
+     <section className="bg-white dark:bg-black py-16">
          <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12">
    
            {/* Heading */}

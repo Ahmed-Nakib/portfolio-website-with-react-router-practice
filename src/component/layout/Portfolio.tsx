@@ -13,14 +13,14 @@ const Portfolio = () => {
       : portfolioDetails.filter((item) => item.category === filter)
 
   return (
-    <section className="bg-white py-16">
+    <section className="bg-white dark:bg-black py-16">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 space-y-6 ">
         <h2 className="sm:text-2xl md:text-3xl lg:text-4xl font-bold uppercase">
           quality work <br /> Recently done project
         </h2>
 
         {/* Filter Buttons */}
-        <div className="flex gap-4">
+        <div className="flex flex-wrap gap-4">
           {portfolioItems.map((item) => (
             <button
               key={item.id}
