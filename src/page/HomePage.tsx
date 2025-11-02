@@ -1,6 +1,7 @@
 import About from "@/component/layout/About"
 import Comment from "@/component/layout/Comment"
 import ExperienceSection from "@/component/layout/ExperienceSection"
+import FaqSection from "@/component/layout/FaqSection"
 import Form from "@/component/layout/From"
 import Hero from "@/component/layout/Hero"
 import Portfolio from "@/component/layout/Portfolio"
@@ -14,6 +15,7 @@ const HomePage = () => {
       <ExperienceSection />
       <Service />
       <Portfolio />
+      <FaqSection/>
       <Comment />
       <Form />
     </>
