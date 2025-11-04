@@ -5,8 +5,8 @@ import ExperienceSection from "@/component/layout/ExperienceSection"
 import FaqSection from "@/component/layout/FaqSection"
 import Form from "@/component/layout/From"
 import Hero from "@/component/layout/Hero"
-import Portfolio from "@/component/layout/Portfolio"
 import Service from "@/component/layout/Service"
+import PortfolioSlider from "@/component/PortfolioSlider"
 
 const HomePage = () => {
   return (
@@ -15,7 +15,7 @@ const HomePage = () => {
       <About />
       <ExperienceSection />
       <Service />
-      <Portfolio />
+      <PortfolioSlider />
       <FaqSection/>
       <Comment />
       <Form />
